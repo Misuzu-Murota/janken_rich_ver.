@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <link rel="stylesheet" href="css/sample.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <title>究極の飲みゲー</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>究極の飲みゲー</h1>
+    </header>
+
+    <main>
+        <div class="nyuuryoku">            
+        <div class="head_ichi">  <!--名前横並び--> 
+            <form action="#" id="">
+                <div class="namae_ichi">
+                <p class="ichi">
+                <label for="">1人目のお名前</label>
+                <input type="text" id="content" name="">
+                </p>
+                <p class="ichi">
+                <label for="">2人目のお名前</label>
+                <input type="text" id="content2" name="">
+                </p>
+             </div>
+            </form>    
+        </div>
+        <div class="namae_ichi">  <!--お酒名前横並び-->
+        <div class="ichi"> 
+         <label for="">お酒1　　　　</label>
+         <select name="osake" id="osake1" class="random-item">
+            <option value="1">ワイン</option>
+            <option value="2">ビール</option>
+            <option value="3">日本酒</option>
+            <option value="4">甘いお酒</option>
+            <option value="5">その他</option>
+         </select>
+        </div>
+        <div class="ichi">
+            <label for="">お酒2　　　　</label>
+            <select name="osake" id="osake2" class="random-item">
+                <option value="1">ワイン</option>
+                <option value="2">ビール</option>
+                <option value="3">日本酒</option>
+                <option value="4">甘いお酒</option>
+                <option value="5">その他</option>
+             </select>
+        </div>
+     </div>
+        <button type="submit" id="kaishibtn" class="">名前とお酒をセット</button>
+    </div>
+    <div class="">
+       <!-- 1人目のトランプ選び -->
+        <h3 id="hitorime-comment">1人目</h3> 
+        <div class="width-te">
+        <ul class="gazou_ichi ura_gazou">
+        <img class="" id="shote1" src="img/ura.jpg" alt="トランプ裏画像1">
+        <img class="" id="shote2" src="img/ura.jpg" alt="トランプ裏画像2">
+        <img class="" id="shote3" src="img/ura.jpg" alt="トランプ裏画像3">
+        </ul>
+        </div>
+    </div>
+    <!-- 2人目のトランプ選び -->
+       <h3 id="futarime-comment">2人目</h3> 
+       <div class="width-te">
+       <ul class="gazou_ichi ura_gazou">
+       <img class="" id="shote21" src="img/ura.jpg" alt="トランプ裏画像1">
+       <img class="" id="shote22" src="img/ura.jpg" alt="トランプ裏画像2">
+       <img class="" id="shote23" src="img/ura.jpg" alt="トランプ裏画像3">
+       </ul>
+       </div>
+      <!-- 2人の手-->
+        <h3 class="h3-1">いざ勝負！</h3> 
+        <div class="width-te">
+        <ul class="gazou_ichi2 ura_gazou">
+        <img id="hitorime" src="img/ura.jpg" alt="トランプ裏画像1">
+        <div>
+            <p class="shouhai" id="shouhai">勝敗はいかに・・・</p>
+            <button id="taiketsu-btn">対決！！</button>
+        </div>
+        <img id="futarime" src="img/ura.jpg" alt="トランプ裏画像2">
+        </div> 
+      <!-- ポップアップ-->
+    <div class="popup-ichi">
+   <div class="popup">
+     <div class="popup_naiyo">
+    <p id="namae">XXXXよ</p>
+    <p class="inshu" id="inshu1"></p>
+    <p class="inshu" id="inshu2"></p>
+    <p id="haisuu">XXX杯飲め～！</p>
+    <button id="close">閉じる</button>
+    </div>
+</div>
+    </div>
+
+
+    </main>
+
+    <footer></footer>
+<script src="js/sample.js"> </script>
+ 
+</body>
+
+</html>
