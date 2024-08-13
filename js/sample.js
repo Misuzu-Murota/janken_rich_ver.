@@ -291,6 +291,7 @@ $("#taiketsu-btn").on("click",function(){
         console.log(w)
     }else{
         $("#shouhai").html("どっちも飲め～")
+        $("#namae").html("二人とも")
         const z= Math.floor(Math.random()*2);
         if(z==0){
             $('#inshu1').text("");
